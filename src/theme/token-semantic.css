@@ -1,0 +1,52 @@
+/* tokens-semantic.css */
+:root {
+  /* layout */
+  --ui-bg-page: var(--color-neutral-50);
+  --ui-bg-surface: #ffffff;
+  --ui-bg-subtle: var(--color-neutral-100);
+
+  /* text */
+  --ui-fg-strong: var(--color-neutral-900);
+  --ui-fg-muted: var(--color-neutral-500);
+  --ui-fg-on-accent: #ffffff;
+
+  /* accent (primary) */
+  --ui-accent: var(--color-primary-500);
+  --ui-accent-strong: var(--color-primary-600);
+  --ui-accent-soft: var(--color-primary-100);
+
+  /* borders */
+  --ui-border-subtle: var(--color-neutral-200);
+  --ui-border-strong: var(--color-neutral-400);
+
+  /* components */
+  --ui-button-bg: var(--ui-accent);
+  --ui-button-bg-hover: var(--ui-accent-strong);
+  --ui-button-fg: var(--ui-fg-on-accent);
+
+  --ui-radius-sm: var(--radius-sm);
+  --ui-radius-md: var(--radius-md);
+  --ui-radius-lg: var(--radius-lg);
+
+  /* status */
+  --ui-status-success: var(--color-success-500);
+  --ui-status-danger: var(--color-danger-500);
+
+  /* Button 컴포넌트용 간단한 별칭 */
+  --spacing-xs: 0.4rem;
+  --spacing-sm: 0.8rem;
+  --spacing-md: 1.2rem;
+  --spacing-lg: 1.6rem;
+
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+
+  --color-primary: var(--color-primary-500);
+  --color-primary-hover: var(--color-primary-600);
+  --color-secondary-hover: var(--color-primary-50);
+  --color-border: var(--color-neutral-200);
+
+  --radius-soft: 12px;
+  --radius-sharp: 4px;
+}

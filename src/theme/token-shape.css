@@ -1,0 +1,22 @@
+/* tokens-theme-shape.css */
+
+/* 기본 (soft) */
+:root[data-shape="soft"] {
+  --ui-radius-button: var(--radius-md);
+  --ui-radius-card: var(--radius-lg);
+  --ui-radius-input: var(--radius-md);
+}
+
+/* sharp (딱딱) */
+:root[data-shape="sharp"] {
+  --ui-radius-button: 0.2rem;
+  --ui-radius-card: 0.4rem;
+  --ui-radius-input: 0.2rem;
+}
+
+/* round (동그라미) */
+:root[data-shape="round"] {
+  --ui-radius-button: 999px;
+  --ui-radius-card: 1.6rem;
+  --ui-radius-input: 999px;
+}
