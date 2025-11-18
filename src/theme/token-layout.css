@@ -1,0 +1,64 @@
+/* src/theme/token-layout.css */
+:root {
+  /* 공통 토큰 이름(실제 컴포넌트는 이 값만 사용) */
+  --layout-screen-margin: 16px;
+  --layout-gutter-min: 16px;
+  --layout-gutter-max: 16px;
+  --layout-columns-min: 4;
+  --layout-columns-max: 6;
+}
+
+/* small 이상 (360px~) – 가이드상 xs/small 규칙은 거의 동일 */
+@media (min-width: 360px) {
+  :root {
+    --layout-screen-margin: 16px;
+    --layout-gutter-min: 16px;
+    --layout-gutter-max: 16px;
+    --layout-columns-min: 4;
+    --layout-columns-max: 6;
+  }
+}
+
+/* medium 이상 (768px~) */
+@media (min-width: 768px) {
+  :root {
+    --layout-screen-margin: 24px;
+    --layout-gutter-min: 16px;
+    --layout-gutter-max: 24px;
+    --layout-columns-min: 8;
+    --layout-columns-max: 12;
+  }
+}
+
+/* large 이상 (1024px~) */
+@media (min-width: 1024px) {
+  :root {
+    --layout-screen-margin: 24px;
+    --layout-gutter-min: 16px;
+    --layout-gutter-max: 24px;
+    --layout-columns-min: 12;
+    --layout-columns-max: 16;
+  }
+}
+
+/* xlarge 이상 (1280px~) – large와 동일 */
+@media (min-width: 1280px) {
+  :root {
+    --layout-screen-margin: 24px;
+    --layout-gutter-min: 16px;
+    --layout-gutter-max: 24px;
+    --layout-columns-min: 12;
+    --layout-columns-max: 16;
+  }
+}
+
+/* xxlarge 이상 (1440px~) – 필요하면 따로 조정 가능 */
+@media (min-width: 1440px) {
+  :root {
+    --layout-screen-margin: 24px;
+    --layout-gutter-min: 16px;
+    --layout-gutter-max: 24px;
+    --layout-columns-min: 12;
+    --layout-columns-max: 16;
+  }
+}

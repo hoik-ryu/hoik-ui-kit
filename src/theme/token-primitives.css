@@ -77,25 +77,25 @@
   --font-weight-medium: 500;
   --font-weight-bold: 700;
 
-  --font-size-display-large: 4.8rem;
-  --font-size-display-medium: 4rem;
-  --font-size-display-small: 3.6rem;
+  --font-size-display-lg: 4.8rem;
+  --font-size-display-md: 4rem;
+  --font-size-display-sm: 3.6rem;
 
-  --font-size-heading-large: 3.2rem;
-  --font-size-heading-medium: 2.4rem;
-  --font-size-heading-small: 2rem;
+  --font-size-heading-lg: 3.2rem;
+  --font-size-heading-md: 2.4rem;
+  --font-size-heading-sm: 2rem;
 
-  --font-size-title-large: 1.8rem;
-  --font-size-title-medium: 1.6rem;
-  --font-size-title-small: 1.4rem;
+  --font-size-title-lg: 1.8rem;
+  --font-size-title-md: 1.6rem;
+  --font-size-title-sm: 1.4rem;
 
-  --font-size-body-large: 1.6rem;
-  --font-size-body-medium: 1.4rem;
-  --font-size-body-small: 1.2rem;
+  --font-size-body-lg: 1.6rem;
+  --font-size-body-md: 1.4rem;
+  --font-size-body-sm: 1.2rem;
 
-  --font-size-caption-large: 1.4rem;
-  --font-size-caption-medium: 1.2rem;
-  --font-size-caption-small: 1rem;
+  --font-size-caption-lg: 1.4rem;
+  --font-size-caption-md: 1.2rem;
+  --font-size-caption-sm: 1rem;
 
   --font-size-button-large: 1.6rem;
   --font-size-button-medium: 1.4rem;
@@ -108,32 +108,15 @@
   --line-height-caption: 1.3;
   --line-height-button: 1.3;
 
-  --radius-small: 0.2rem;
-  --radius-medium: 0.4rem;
-  --radius-large: 0.6rem;
-  --radius-xlarge: 0.8rem;
+  --radius-sm: 0.2rem;
+  --radius-md: 0.4rem;
+  --radius-lg: 0.6rem;
+  --radius-xl: 0.8rem;
   --radius-2xl: 1.6rem;
 
   --spacing-lg: 3rem;
   --spacing-md: 2.4rem;
   --spacing-sm: 1.6rem;
-
-  --screen-margin-small: 1.6rem;
-  --screen-margin-medium: 2.4rem;
-  --screen-margin-large: 2.4rem;
-
-  --gutter-small: 1.6rem;
-  --gutter-medium: 1.6rem;
-  --gutter-medium-max: 2.4rem;
-  --gutter-large: 1.6rem;
-  --gutter-large-max: 2.4rem;
-
-  --columns-small-min: 4;
-  --columns-small-max: 6;
-  --columns-medium-min: 8;
-  --columns-medium-max: 12;
-  --columns-large-min: 12;
-  --columns-large-max: 16;
 
   --breakpoint-xsmall: 0px;
   --breakpoint-small: 360px;
@@ -155,7 +138,7 @@
   --shadow-base: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
-    0 4px 6px -4px rgb(0 0 0 / 0.1);
+    t 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1);
 
@@ -163,13 +146,13 @@
   --duration-normal: 300ms;
   --duration-slow: 500ms;
 
-  --chart-primary: var(--color-primary-400);
-  --chart-primary: var(--color-primary-500);
-  --chart-primary-light: var(--color-primary-400);
-  --chart-primary-dark: var(--color-primary-600);
-  --chart-secondary: #667085;
-  --chart-background: #ffffff;
-  --chart-border: #e5e7eb;
-  --chart-text: #374151;
-  --chart-text-light: #6b7280;
+  /* === Icon size scale === */
+  --icon-size-xs: 1.6rem; /* 16px */
+  --icon-size-sm: 2rem; /* 20px */
+  --icon-size-md: 2.4rem; /* 24px */
+  --icon-size-lg: 3.2rem; /* 32px */
+  --icon-size-xl: 4rem; /* 40px */
+
+  /* Base size (일반적으로 UI에서 가장 많이 쓰는 24px 기준) */
+  --icon-size-base: var(--icon-size-md);
 }
