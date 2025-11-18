@@ -1,13 +1,23 @@
 :root {
+  /* Colors */
   --color-primary: #ff6b00;
   --color-primary-hover: #ff8a33;
-
+  --color-secondary-hover: #fff5ed;
   --color-text: #111827;
   --color-border: #e5e7eb;
-  --radius-md: 9999px;
+
+  /* Border Radius */
+  --radius-soft: 12px;
+  --radius-sharp: 4px;
+
+  /* Font Sizes */
   --font-size-sm: 0.875rem;
   --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+
+  /* Spacing */
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
   --spacing-md: 0.75rem;
+  --spacing-lg: 1rem;
 }

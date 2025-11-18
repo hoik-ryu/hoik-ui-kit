@@ -1,23 +1,19 @@
-import type { Meta, StoryObj } from '@storybook/react-vite';
+import type { Meta, StoryObj } from "@storybook/react-vite";
 
-import { fn } from 'storybook/test';
+import { fn } from "storybook/test";
 
-import { Button } from './Button';
+import { Button } from "../components/Button/Button";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'Example/Button',
+  title: "Example/Button",
   component: Button,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
-    layout: 'centered',
+    layout: "centered",
   },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
-  tags: ['autodocs'],
-  // More on argTypes: https://storybook.js.org/docs/api/argtypes
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
+  tags: ["autodocs"],
   // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#story-args
   args: { onClick: fn() },
 } satisfies Meta<typeof Button>;
@@ -26,29 +22,55 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const Primary: Story = {
+export const PrimarySoft: Story = {
   args: {
-    primary: true,
-    label: 'Button',
+    variant: "primary",
+    rounded: "soft",
+    children: "Button",
   },
 };
 
-export const Secondary: Story = {
+export const PrimarySharp: Story = {
   args: {
-    label: 'Button',
+    variant: "primary",
+    rounded: "sharp",
+    children: "Primary Sharp",
+  },
+};
+
+export const SecondarySoft: Story = {
+  args: {
+    variant: "secondary",
+    rounded: "soft",
+    children: "Secondary Soft",
+  },
+};
+
+export const SecondarySharp: Story = {
+  args: {
+    variant: "secondary",
+    rounded: "sharp",
+    children: "Secondary Sharp",
   },
 };
 
 export const Large: Story = {
   args: {
-    size: 'large',
-    label: 'Button',
+    size: "large",
+    children: "Large Button",
+  },
+};
+
+export const Medium: Story = {
+  args: {
+    size: "medium",
+    children: "Medium Button",
   },
 };
 
 export const Small: Story = {
   args: {
-    size: 'small',
-    label: 'Button',
+    size: "small",
+    children: "Small Button",
   },
 };
