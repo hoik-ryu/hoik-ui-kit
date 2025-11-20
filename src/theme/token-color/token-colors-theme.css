@@ -1,0 +1,159 @@
+/* 대표 색상 */
+
+:root {
+  --color-gray-hoik-1: #f1f2f4; /* neutral-50 */
+  --color-gray-hoik-2: #dcdfe4; /* neutral-100 */
+  --color-gray-hoik-3: #bfc4ce; /* neutral-200 */
+  --color-gray-hoik-4: #9da4b4; /* neutral-300 */
+  --color-gray-hoik-5: #808a9e; /* neutral-400 */
+  --color-gray-hoik-6: #667085; /* neutral-500 */
+  --color-gray-hoik-7: #545c6e; /* neutral-600 */
+  --color-gray-hoik-8: #424957; /* neutral-700 */
+  --color-gray-hoik-9: #364151; /* neutral-800 */
+  --color-gray-hoik-10: #272c34; /* neutral-900 */
+  --color-gray-hoik-11: #1f2229; /* neutral-950 */
+  --color-gray-hoik-12: #12141a; /* 가장 어두운 색 */
+
+  --color-gray-hoik-dark-1: #12141a;
+  --color-gray-hoik-dark-2: #1f2229;
+  --color-gray-hoik-dark-3: #272c34;
+  --color-gray-hoik-dark-4: #364151;
+  --color-gray-hoik-dark-5: #424957;
+  --color-gray-hoik-dark-6: #545c6e;
+  --color-gray-hoik-dark-7: #667085;
+  --color-gray-hoik-dark-8: #808a9e;
+  --color-gray-hoik-dark-9: #9da4b4;
+  --color-gray-hoik-dark-10: #bfc4ce;
+  --color-gray-hoik-dark-11: #dcdfe4;
+  --color-gray-hoik-dark-12: #f1f2f4;
+
+  --color-green-hoik-1: #f6fef9; /* success-50 */
+  --color-green-hoik-2: #ebfcd5; /* success-100 */
+  --color-green-hoik-3: #d4f9ac; /* success-200 */
+  --color-green-hoik-4: #b1ee80; /* success-300 */
+  --color-green-hoik-5: #8fde5d; /* success-400 */
+  --color-green-hoik-6: #5fc92e; /* success-500 */
+  --color-green-hoik-7: #44ac21; /* success-600 */
+  --color-green-hoik-8: #2d9017; /* success-700 */
+  --color-green-hoik-9: #1a740e; /* success-800 */
+  --color-green-hoik-10: #0b5507; /* success-900 */
+  --color-green-hoik-11: #184616; /* success-950 */
+  --color-green-hoik-12: #0d2c0a; /* 더 어둡게 */
+
+  --color-green-hoik-dark-1: #0e1512;
+  --color-green-hoik-dark-2: #0d2c0a;
+  --color-green-hoik-dark-3: #184616;
+  --color-green-hoik-dark-4: #0b5507;
+  --color-green-hoik-dark-5: #1a740e;
+  --color-green-hoik-dark-6: #2d9017;
+  --color-green-hoik-dark-7: #44ac21;
+  --color-green-hoik-dark-8: #5fc92e;
+  --color-green-hoik-dark-9: #8fde5d;
+  --color-green-hoik-dark-10: #b1ee80;
+  --color-green-hoik-dark-11: #d4f9ac;
+  --color-green-hoik-dark-12: #f6fef9;
+
+  --color-amber-hoik-1: #fef5e6; /* warning-50 */
+  --color-amber-hoik-2: #feeac8; /* warning-100 */
+  --color-amber-hoik-3: #fde0af; /* warning-200 */
+  --color-amber-hoik-4: #fdd491; /* warning-300 */
+  --color-amber-hoik-5: #fcc873; /* warning-400 */
+  --color-amber-hoik-6: #fbbc55; /* warning-500 */
+  --color-amber-hoik-7: #e9a23b; /* warning-600 */
+  --color-amber-hoik-8: #c8811a; /* warning-700 */
+  --color-amber-hoik-9: #a35c00; /* warning-800 */
+  --color-amber-hoik-10: #8b4400; /* warning-900 */
+  --color-amber-hoik-11: #572a00; /* warning-950 */
+  --color-amber-hoik-12: #3d1d00; /* 더 어둡게 */
+
+  --color-amber-hoik-dark-1: #16120c;
+  --color-amber-hoik-dark-2: #3d1d00;
+  --color-amber-hoik-dark-3: #572a00;
+  --color-amber-hoik-dark-4: #8b4400;
+  --color-amber-hoik-dark-5: #a35c00;
+  --color-amber-hoik-dark-6: #c8811a;
+  --color-amber-hoik-dark-7: #e9a23b;
+  --color-amber-hoik-dark-8: #fbbc55;
+  --color-amber-hoik-dark-9: #fcc873;
+  --color-amber-hoik-dark-10: #fdd491;
+  --color-amber-hoik-dark-11: #fde0af;
+  --color-amber-hoik-dark-12: #fef5e6;
+
+  --color-red-hoik-1: #fdf1f1; /* danger-50 */
+  --color-red-hoik-2: #fbdddd; /* danger-100 */
+  --color-red-hoik-3: #f7bbbb; /* danger-200 */
+  --color-red-hoik-4: #f29899; /* danger-300 */
+  --color-red-hoik-5: #ee7677; /* danger-400 */
+  --color-red-hoik-6: #ea5455; /* danger-500 */
+  --color-red-hoik-7: #e24445; /* danger-600 */
+  --color-red-hoik-8: #bf1719; /* danger-700 */
+  --color-red-hoik-9: #921213; /* danger-800 */
+  --color-red-hoik-10: #640c0d; /* danger-900 */
+  --color-red-hoik-11: #370707; /* danger-950 */
+  --color-red-hoik-12: #250505; /* 더 어둡게 */
+
+  --color-red-hoik-dark-1: #191111;
+  --color-red-hoik-dark-2: #250505;
+  --color-red-hoik-dark-3: #370707;
+  --color-red-hoik-dark-4: #640c0d;
+  --color-red-hoik-dark-5: #921213;
+  --color-red-hoik-dark-6: #bf1719;
+  --color-red-hoik-dark-7: #e24445;
+  --color-red-hoik-dark-8: #ea5455;
+  --color-red-hoik-dark-9: #ee7677;
+  --color-red-hoik-dark-10: #f29899;
+  --color-red-hoik-dark-11: #f7bbbb;
+  --color-red-hoik-dark-12: #fdf1f1;
+
+  --color-blue-hoik-1: #ebf3ff; /* info-50 */
+  --color-blue-hoik-2: #cde2fe; /* info-100 */
+  --color-blue-hoik-3: #a7c9fd; /* info-200 */
+  --color-blue-hoik-4: #7ba8f9; /* info-300 */
+  --color-blue-hoik-5: #598cf4; /* info-400 */
+  --color-blue-hoik-6: #2561ed; /* info-500 */
+  --color-blue-hoik-7: #1b4acb; /* info-600 */
+  --color-blue-hoik-8: #1236aa; /* info-700 */
+  --color-blue-hoik-9: #0b2589; /* info-800 */
+  --color-blue-hoik-10: #071971; /* info-900 */
+  --color-blue-hoik-11: #040f43; /* info-950 */
+  --color-blue-hoik-12: #020730; /* 더 어둡게 */
+
+  --color-blue-hoik-dark-1: #0d1520;
+  --color-blue-hoik-dark-2: #020730;
+  --color-blue-hoik-dark-3: #040f43;
+  --color-blue-hoik-dark-4: #071971;
+  --color-blue-hoik-dark-5: #0b2589;
+  --color-blue-hoik-dark-6: #1236aa;
+  --color-blue-hoik-dark-7: #1b4acb;
+  --color-blue-hoik-dark-8: #2561ed;
+  --color-blue-hoik-dark-9: #598cf4;
+  --color-blue-hoik-dark-10: #7ba8f9;
+  --color-blue-hoik-dark-11: #a7c9fd;
+  --color-blue-hoik-dark-12: #ebf3ff;
+
+  --color-teal-hoik-1: #e7f9f4; /* teal-50 */
+  --color-teal-hoik-2: #c4f1e3; /* teal-100 */
+  --color-teal-hoik-3: #a1e8d3; /* teal-200 */
+  --color-teal-hoik-4: #71ddbc; /* teal-300 */
+  --color-teal-hoik-5: #42d1a6; /* teal-400 */
+  --color-teal-hoik-6: #13c690; /* teal-500 */
+  --color-teal-hoik-7: #10a87a; /* teal-600 */
+  --color-teal-hoik-8: #0d8b65; /* teal-700 */
+  --color-teal-hoik-9: #0a6d4f; /* teal-800 */
+  --color-teal-hoik-10: #084f3a; /* teal-900 */
+  --color-teal-hoik-11: #053224; /* teal-950 */
+  --color-teal-hoik-12: #032018; /* 더 어둡게 */
+
+  --color-teal-hoik-dark-1: #0d1514;
+  --color-teal-hoik-dark-2: #032018;
+  --color-teal-hoik-dark-3: #053224;
+  --color-teal-hoik-dark-4: #084f3a;
+  --color-teal-hoik-dark-5: #0a6d4f;
+  --color-teal-hoik-dark-6: #0d8b65;
+  --color-teal-hoik-dark-7: #10a87a;
+  --color-teal-hoik-dark-8: #13c690;
+  --color-teal-hoik-dark-9: #42d1a6;
+  --color-teal-hoik-dark-10: #71ddbc;
+  --color-teal-hoik-dark-11: #a1e8d3;
+  --color-teal-hoik-dark-12: #e7f9f4;
+}

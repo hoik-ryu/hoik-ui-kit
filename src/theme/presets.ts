@@ -1,50 +1,56 @@
 // src/theme/presets.ts
-export type ColorScheme = "teal" | "green" | "yellow" | "gray" | "purple";
-export type Shape = "sharp" | "soft" | "round";
+
+export type AccentScheme = "yellow" | "jade" | "blue" | "purple";
+export type GrayScheme = "gray" | "jade" | "bronze";
+export type BackgroundScheme = "gray" | "sand";
 export type Mode = "light" | "dark";
+export type Shape = "sharp" | "soft" | "round";
 
 export type ThemePreset = {
   id: string;
   label: string;
   mode: Mode;
-  color: ColorScheme;
+  accent: AccentScheme;
+  gray: GrayScheme;
+  background: BackgroundScheme;
   shape: Shape;
 };
 
 export const themePresets: ThemePreset[] = [
   {
-    id: "light-soft-teal",
-    label: "Light / Soft / Teal",
+    id: "light-soft-yellow-gray",
+    label: "Light / Soft / Yellow / Gray",
     mode: "light",
-    color: "teal",
+    accent: "yellow",
+    gray: "gray",
+    background: "gray",
     shape: "soft",
   },
   {
-    id: "light-soft-green",
-    label: "Light / Soft / Green",
+    id: "light-soft-jade-gray",
+    label: "Light / Soft / Jade / Gray",
     mode: "light",
-    color: "green",
+    accent: "jade",
+    gray: "gray",
+    background: "gray",
     shape: "soft",
   },
   {
-    id: "dark-soft-teal",
-    label: "Dark / Soft / Teal",
+    id: "dark-soft-blue-gray",
+    label: "Dark / Soft / Blue / Gray",
     mode: "dark",
-    color: "teal",
+    accent: "blue",
+    gray: "gray",
+    background: "gray",
     shape: "soft",
   },
   {
-    id: "dark-soft-yellow",
-    label: "Dark / Soft / Yellow",
+    id: "dark-round-purple-bronze",
+    label: "Dark / Round / Purple / Bronze",
     mode: "dark",
-    color: "yellow",
-    shape: "soft",
-  },
-  {
-    id: "light-round-teal",
-    label: "Light / Round / Teal",
-    mode: "light",
-    color: "teal",
+    accent: "purple",
+    gray: "bronze",
+    background: "sand",
     shape: "round",
   },
 ];
@@ -54,6 +60,8 @@ export function applyThemePreset(
   target: HTMLElement = document.documentElement
 ) {
   target.dataset.mode = preset.mode;
-  target.dataset.color = preset.color;
+  target.dataset.accent = preset.accent;
+  target.dataset.gray = preset.gray;
+  target.dataset.background = preset.background;
   target.dataset.shape = preset.shape;
 }

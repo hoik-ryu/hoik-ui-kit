@@ -1,0 +1,374 @@
+:root[data-mode="light"][data-accent="yellow"] {
+  --accent-1: var(--color-yellow-1);
+  --accent-2: var(--color-yellow-2);
+  --accent-3: var(--color-yellow-3);
+  --accent-4: var(--color-yellow-4);
+  --accent-5: var(--color-yellow-5);
+  --accent-6: var(--color-yellow-6);
+  --accent-7: var(--color-yellow-7);
+  --accent-8: var(--color-yellow-8);
+  --accent-9: var(--color-yellow-9);
+  --accent-10: var(--color-yellow-10);
+  --accent-11: var(--color-yellow-11);
+  --accent-12: var(--color-yellow-12);
+}
+
+:root[data-mode="dark"][data-accent="yellow"] {
+  --accent-1: var(--color-yellow-dark-1);
+  --accent-2: var(--color-yellow-dark-2);
+  --accent-3: var(--color-yellow-dark-3);
+  --accent-4: var(--color-yellow-dark-4);
+  --accent-5: var(--color-yellow-dark-5);
+  --accent-6: var(--color-yellow-dark-6);
+  --accent-7: var(--color-yellow-dark-7);
+  --accent-8: var(--color-yellow-dark-8);
+  --accent-9: var(--color-yellow-dark-9);
+  --accent-10: var(--color-yellow-dark-10);
+  --accent-11: var(--color-yellow-dark-11);
+  --accent-12: var(--color-yellow-dark-12);
+}
+
+/* ---------- jade ---------- */
+:root[data-mode="light"][data-accent="jade"] {
+  --accent-1: var(--color-jade-1);
+  --accent-2: var(--color-jade-2);
+  --accent-3: var(--color-jade-3);
+  --accent-4: var(--color-jade-4);
+  --accent-5: var(--color-jade-5);
+  --accent-6: var(--color-jade-6);
+  --accent-7: var(--color-jade-7);
+  --accent-8: var(--color-jade-8);
+  --accent-9: var(--color-jade-9);
+  --accent-10: var(--color-jade-10);
+  --accent-11: var(--color-jade-11);
+  --accent-12: var(--color-jade-12);
+}
+
+:root[data-mode="dark"][data-accent="jade"] {
+  --accent-1: var(--color-jade-dark-1);
+  --accent-2: var(--color-jade-dark-2);
+  --accent-3: var(--color-jade-dark-3);
+  --accent-4: var(--color-jade-dark-4);
+  --accent-5: var(--color-jade-dark-5);
+  --accent-6: var(--color-jade-dark-6);
+  --accent-7: var(--color-jade-dark-7);
+  --accent-8: var(--color-jade-dark-8);
+  --accent-9: var(--color-jade-dark-9);
+  --accent-10: var(--color-jade-dark-10);
+  --accent-11: var(--color-jade-dark-11);
+  --accent-12: var(--color-jade-dark-12);
+}
+
+/* ---------- blue ---------- */
+:root[data-mode="light"][data-accent="blue"] {
+  --accent-1: var(--color-blue-1);
+  --accent-2: var(--color-blue-2);
+  --accent-3: var(--color-blue-3);
+  --accent-4: var(--color-blue-4);
+  --accent-5: var(--color-blue-5);
+  --accent-6: var(--color-blue-6);
+  --accent-7: var(--color-blue-7);
+  --accent-8: var(--color-blue-8);
+  --accent-9: var(--color-blue-9);
+  --accent-10: var(--color-blue-10);
+  --accent-11: var(--color-blue-11);
+  --accent-12: var(--color-blue-12);
+}
+
+:root[data-mode="dark"][data-accent="blue"] {
+  --accent-1: var(--color-blue-dark-1);
+  --accent-2: var(--color-blue-dark-2);
+  --accent-3: var(--color-blue-dark-3);
+  --accent-4: var(--color-blue-dark-4);
+  --accent-5: var(--color-blue-dark-5);
+  --accent-6: var(--color-blue-dark-6);
+  --accent-7: var(--color-blue-dark-7);
+  --accent-8: var(--color-blue-dark-8);
+  --accent-9: var(--color-blue-dark-9);
+  --accent-10: var(--color-blue-dark-10);
+  --accent-11: var(--color-blue-dark-11);
+  --accent-12: var(--color-blue-dark-12);
+}
+
+/* ---------- violet ---------- */
+:root[data-mode="light"][data-accent="violet"] {
+  --accent-1: var(--color-violet-1);
+  --accent-2: var(--color-violet-2);
+  --accent-3: var(--color-violet-3);
+  --accent-4: var(--color-violet-4);
+  --accent-5: var(--color-violet-5);
+  --accent-6: var(--color-violet-6);
+  --accent-7: var(--color-violet-7);
+  --accent-8: var(--color-violet-8);
+  --accent-9: var(--color-violet-9);
+  --accent-10: var(--color-violet-10);
+  --accent-11: var(--color-violet-11);
+  --accent-12: var(--color-violet-12);
+}
+
+:root[data-mode="dark"][data-accent="violet"] {
+  --accent-1: var(--color-violet-dark-1);
+  --accent-2: var(--color-violet-dark-2);
+  --accent-3: var(--color-violet-dark-3);
+  --accent-4: var(--color-violet-dark-4);
+  --accent-5: var(--color-violet-dark-5);
+  --accent-6: var(--color-violet-dark-6);
+  --accent-7: var(--color-violet-dark-7);
+  --accent-8: var(--color-violet-dark-8);
+  --accent-9: var(--color-violet-dark-9);
+  --accent-10: var(--color-violet-dark-10);
+  --accent-11: var(--color-violet-dark-11);
+  --accent-12: var(--color-violet-dark-12);
+}
+
+/* ---------- crimson ---------- */
+:root[data-mode="light"][data-accent="crimson"] {
+  --accent-1: var(--color-crimson-1);
+  --accent-2: var(--color-crimson-2);
+  --accent-3: var(--color-crimson-3);
+  --accent-4: var(--color-crimson-4);
+  --accent-5: var(--color-crimson-5);
+  --accent-6: var(--color-crimson-6);
+  --accent-7: var(--color-crimson-7);
+  --accent-8: var(--color-crimson-8);
+  --accent-9: var(--color-crimson-9);
+  --accent-10: var(--color-crimson-10);
+  --accent-11: var(--color-crimson-11);
+  --accent-12: var(--color-crimson-12);
+}
+
+:root[data-mode="dark"][data-accent="crimson"] {
+  --accent-1: var(--color-crimson-dark-1);
+  --accent-2: var(--color-crimson-dark-2);
+  --accent-3: var(--color-crimson-dark-3);
+  --accent-4: var(--color-crimson-dark-4);
+  --accent-5: var(--color-crimson-dark-5);
+  --accent-6: var(--color-crimson-dark-6);
+  --accent-7: var(--color-crimson-dark-7);
+  --accent-8: var(--color-crimson-dark-8);
+  --accent-9: var(--color-crimson-dark-9);
+  --accent-10: var(--color-crimson-dark-10);
+  --accent-11: var(--color-crimson-dark-11);
+  --accent-12: var(--color-crimson-dark-12);
+}
+
+/* ===========================================
+   3) GRAY ALIAS (mode + gray)
+   후보: gray | slate | sage | olive | sand
+=========================================== */
+
+/* ---------- gray ---------- */
+:root[data-mode="light"][data-gray="gray"] {
+  --gray-1: var(--color-gray-1);
+  --gray-2: var(--color-gray-2);
+  --gray-3: var(--color-gray-3);
+  --gray-4: var(--color-gray-4);
+  --gray-5: var(--color-gray-5);
+  --gray-6: var(--color-gray-6);
+  --gray-7: var(--color-gray-7);
+  --gray-8: var(--color-gray-8);
+  --gray-9: var(--color-gray-9);
+  --gray-10: var(--color-gray-10);
+  --gray-11: var(--color-gray-11);
+  --gray-12: var(--color-gray-12);
+}
+
+:root[data-mode="dark"][data-gray="gray"] {
+  --gray-1: var(--color-gray-dark-1);
+  --gray-2: var(--color-gray-dark-2);
+  --gray-3: var(--color-gray-dark-3);
+  --gray-4: var(--color-gray-dark-4);
+  --gray-5: var(--color-gray-dark-5);
+  --gray-6: var(--color-gray-dark-6);
+  --gray-7: var(--color-gray-dark-7);
+  --gray-8: var(--color-gray-dark-8);
+  --gray-9: var(--color-gray-dark-9);
+  --gray-10: var(--color-gray-dark-10);
+  --gray-11: var(--color-gray-dark-11);
+  --gray-12: var(--color-gray-dark-12);
+}
+
+/* ---------- slate ---------- */
+:root[data-mode="light"][data-gray="slate"] {
+  --gray-1: var(--color-slate-1);
+  --gray-2: var(--color-slate-2);
+  --gray-3: var(--color-slate-3);
+  --gray-4: var(--color-slate-4);
+  --gray-5: var(--color-slate-5);
+  --gray-6: var(--color-slate-6);
+  --gray-7: var(--color-slate-7);
+  --gray-8: var(--color-slate-8);
+  --gray-9: var(--color-slate-9);
+  --gray-10: var(--color-slate-10);
+  --gray-11: var(--color-slate-11);
+  --gray-12: var(--color-slate-12);
+}
+
+:root[data-mode="dark"][data-gray="slate"] {
+  --gray-1: var(--color-slate-dark-1);
+  --gray-2: var(--color-slate-dark-2);
+  --gray-3: var(--color-slate-dark-3);
+  --gray-4: var(--color-slate-dark-4);
+  --gray-5: var(--color-slate-dark-5);
+  --gray-6: var(--color-slate-dark-6);
+  --gray-7: var(--color-slate-dark-7);
+  --gray-8: var(--color-slate-dark-8);
+  --gray-9: var(--color-slate-dark-9);
+  --gray-10: var(--color-slate-dark-10);
+  --gray-11: var(--color-slate-dark-11);
+  --gray-12: var(--color-slate-dark-12);
+}
+
+/* ---------- sage ---------- */
+:root[data-mode="light"][data-gray="sage"] {
+  --gray-1: var(--color-sage-1);
+  --gray-2: var(--color-sage-2);
+  --gray-3: var(--color-sage-3);
+  --gray-4: var(--color-sage-4);
+  --gray-5: var(--color-sage-5);
+  --gray-6: var(--color-sage-6);
+  --gray-7: var(--color-sage-7);
+  --gray-8: var(--color-sage-8);
+  --gray-9: var(--color-sage-9);
+  --gray-10: var(--color-sage-10);
+  --gray-11: var(--color-sage-11);
+  --gray-12: var(--color-sage-12);
+}
+
+:root[data-mode="dark"][data-gray="sage"] {
+  --gray-1: var(--color-sage-dark-1);
+  --gray-2: var(--color-sage-dark-2);
+  --gray-3: var(--color-sage-dark-3);
+  --gray-4: var(--color-sage-dark-4);
+  --gray-5: var(--color-sage-dark-5);
+  --gray-6: var(--color-sage-dark-6);
+  --gray-7: var(--color-sage-dark-7);
+  --gray-8: var(--color-sage-dark-8);
+  --gray-9: var(--color-sage-dark-9);
+  --gray-10: var(--color-sage-dark-10);
+  --gray-11: var(--color-sage-dark-11);
+  --gray-12: var(--color-sage-dark-12);
+}
+
+/* ---------- olive ---------- */
+:root[data-mode="light"][data-gray="olive"] {
+  --gray-1: var(--color-olive-1);
+  --gray-2: var(--color-olive-2);
+  --gray-3: var(--color-olive-3);
+  --gray-4: var(--color-olive-4);
+  --gray-5: var(--color-olive-5);
+  --gray-6: var(--color-olive-6);
+  --gray-7: var(--color-olive-7);
+  --gray-8: var(--color-olive-8);
+  --gray-9: var(--color-olive-9);
+  --gray-10: var(--color-olive-10);
+  --gray-11: var(--color-olive-11);
+  --gray-12: var(--color-olive-12);
+}
+
+:root[data-mode="dark"][data-gray="olive"] {
+  --gray-1: var(--color-olive-dark-1);
+  --gray-2: var(--color-olive-dark-2);
+  --gray-3: var(--color-olive-dark-3);
+  --gray-4: var(--color-olive-dark-4);
+  --gray-5: var(--color-olive-dark-5);
+  --gray-6: var(--color-olive-dark-6);
+  --gray-7: var(--color-olive-dark-7);
+  --gray-8: var(--color-olive-dark-8);
+  --gray-9: var(--color-olive-dark-9);
+  --gray-10: var(--color-olive-dark-10);
+  --gray-11: var(--color-olive-dark-11);
+  --gray-12: var(--color-olive-dark-12);
+}
+
+/* ---------- sand ---------- */
+:root[data-mode="light"][data-gray="sand"] {
+  --gray-1: var(--color-sand-1);
+  --gray-2: var(--color-sand-2);
+  --gray-3: var(--color-sand-3);
+  --gray-4: var(--color-sand-4);
+  --gray-5: var(--color-sand-5);
+  --gray-6: var(--color-sand-6);
+  --gray-7: var(--color-sand-7);
+  --gray-8: var(--color-sand-8);
+  --gray-9: var(--color-sand-9);
+  --gray-10: var(--color-sand-10);
+  --gray-11: var(--color-sand-11);
+  --gray-12: var(--color-sand-12);
+}
+
+:root[data-mode="dark"][data-gray="sand"] {
+  --gray-1: var(--color-sand-dark-1);
+  --gray-2: var(--color-sand-dark-2);
+  --gray-3: var(--color-sand-dark-3);
+  --gray-4: var(--color-sand-dark-4);
+  --gray-5: var(--color-sand-dark-5);
+  --gray-6: var(--color-sand-dark-6);
+  --gray-7: var(--color-sand-dark-7);
+  --gray-8: var(--color-sand-dark-8);
+  --gray-9: var(--color-sand-dark-9);
+  --gray-10: var(--color-sand-dark-10);
+  --gray-11: var(--color-sand-dark-11);
+  --gray-12: var(--color-sand-dark-12);
+}
+
+/* ===========================================
+   4) BACKGROUND ALIAS (mode + background)
+   후보: gray | sand | sage | olive | mauve
+   - 페이지 전체 배경톤만 결정 (1~2단계 정도만)
+=========================================== */
+
+/* ---------- gray ---------- */
+:root[data-mode="light"][data-background="gray"] {
+  --bg-page: var(--color-gray-1);
+  --bg-surface: var(--color-gray-2);
+}
+
+:root[data-mode="dark"][data-background="gray"] {
+  --bg-page: var(--color-gray-dark-3);
+  --bg-surface: var(--color-gray-dark-4);
+}
+
+/* ---------- sand ---------- */
+:root[data-mode="light"][data-background="sand"] {
+  --bg-page: var(--color-sand-1);
+  --bg-surface: var(--color-sand-2);
+}
+
+:root[data-mode="dark"][data-background="sand"] {
+  --bg-page: var(--color-sand-dark-2);
+  --bg-surface: var(--color-sand-dark-3);
+}
+
+/* ---------- sage ---------- */
+:root[data-mode="light"][data-background="sage"] {
+  --bg-page: var(--color-sage-1);
+  --bg-surface: var(--color-sage-2);
+}
+
+:root[data-mode="dark"][data-background="sage"] {
+  --bg-page: var(--color-sage-dark-2);
+  --bg-surface: var(--color-sage-dark-3);
+}
+
+/* ---------- olive ---------- */
+:root[data-mode="light"][data-background="olive"] {
+  --bg-page: var(--color-olive-1);
+  --bg-surface: var(--color-olive-2);
+}
+
+:root[data-mode="dark"][data-background="olive"] {
+  --bg-page: var(--color-olive-dark-2);
+  --bg-surface: var(--color-olive-dark-3);
+}
+
+/* ---------- mauve ---------- */
+:root[data-mode="light"][data-background="mauve"] {
+  --bg-page: var(--color-mauve-1);
+  --bg-surface: var(--color-mauve-2);
+}
+
+:root[data-mode="dark"][data-background="mauve"] {
+  --bg-page: var(--color-mauve-dark-2);
+  --bg-surface: var(--color-mauve-dark-3);
+}

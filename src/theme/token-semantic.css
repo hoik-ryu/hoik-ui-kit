@@ -1,52 +1,67 @@
 /* tokens-semantic.css */
 :root {
-  /* layout */
-  --ui-bg-page: var(--color-neutral-50);
-  --ui-bg-surface: #ffffff;
-  --ui-bg-subtle: var(--color-neutral-100);
+  /* 버튼: light/dark 모두 공통 규칙 */
+  --ui-color-button-bg: var(--accent-7);
+  --ui-color-button-bg-hover: var(--accent-8);
+  --ui-color-button-fg: var(--gray-1);
 
-  /* text */
-  --ui-fg-strong: var(--color-neutral-900);
-  --ui-fg-muted: var(--color-neutral-500);
+  /* 테이블/레이아웃 border: gray 팔레트 사용 */
+  --ui-color-border-subtle: var(--gray-6);
+  --ui-color-border-strong: var(--gray-8);
+
+  /* 페이지 배경: background alias 사용 */
+  --ui-color-page-bg: var(--bg-page);
+  --ui-color-page-surface: var(--bg-surface);
+
+  /* ========================================
+     ✏️ Text (텍스트 색상)
+     ======================================== */
+
+  /* ========================================
+     여기서부터 다시 정의 해야됨 accent, gray, background 만 써서 구성하기
+     ======================================== */
+
+  --ui-fg-strong: var(--color-neutral-12);
+  --ui-fg-muted: var(--color-neutral-11);
   --ui-fg-on-accent: #ffffff;
 
-  /* accent (primary) */
-  --ui-accent: var(--color-primary-500);
-  --ui-accent-strong: var(--color-primary-600);
-  --ui-accent-soft: var(--color-primary-100);
+  /* ========================================
+     🎯 Accent (강조 색상 - 컴포넌트 공통 사용)
+     ======================================== */
+  --ui-accent: var(--color-primary-9);
+  --ui-accent-hover: var(--color-primary-10);
+  --ui-accent-subtle: var(--color-primary-3);
 
-  /* borders */
-  --ui-border-subtle: var(--color-neutral-200);
-  --ui-border-strong: var(--color-neutral-400);
+  /* ========================================
+     📏 Borders (테두리)
+     ======================================== */
+  --ui-border-base: var(--color-neutral-6);
+  --ui-border-strong: var(--color-neutral-8);
 
-  /* components */
-  --ui-button-bg: var(--ui-accent);
-  --ui-button-bg-hover: var(--ui-accent-strong);
-  --ui-button-fg: var(--ui-fg-on-accent);
+  /* ========================================
+     🔘 Button Specific (버튼 전용 semantic)
+     ======================================== */
+  --ui-button-bg-primary: var(--ui-accent);
+  --ui-button-bg-primary-hover: var(--ui-accent-hover);
+  --ui-button-fg-primary: var(--ui-fg-on-accent);
 
-  --ui-radius-sm: var(--radius-sm);
-  --ui-radius-md: var(--radius-md);
-  --ui-radius-lg: var(--radius-lg);
+  --ui-button-bg-secondary: transparent;
+  --ui-button-fg-secondary: var(--ui-accent);
+  --ui-button-bg-secondary-hover: var(--ui-accent-subtle);
+  --ui-button-border-secondary: var(--ui-accent);
 
-  /* status */
-  --ui-status-success: var(--color-success-500);
-  --ui-status-danger: var(--color-danger-500);
+  /* ========================================
+     🔲 Border Radius (기본값, theme에서 오버라이드)
+     ======================================== */
+  --ui-radius-button: var(--radius-md);
+  --ui-radius-card: var(--radius-lg);
+  --ui-radius-input: var(--radius-md);
 
-  /* Button 컴포넌트용 간단한 별칭 */
-  --spacing-xs: 0.4rem;
-  --spacing-sm: 0.8rem;
-  --spacing-md: 1.2rem;
-  --spacing-lg: 1.6rem;
-
-  --font-size-sm: 0.875rem;
-  --font-size-md: 1rem;
-  --font-size-lg: 1.125rem;
-
-  --color-primary: var(--color-primary-500);
-  --color-primary-hover: var(--color-primary-600);
-  --color-secondary-hover: var(--color-primary-50);
-  --color-border: var(--color-neutral-200);
-
-  --radius-soft: 12px;
-  --radius-sharp: 4px;
+  /* ========================================
+     ✅ Status (상태 표시)
+     ======================================== */
+  --ui-status-success: var(--color-success-9);
+  --ui-status-warning: var(--color-warning-9);
+  --ui-status-danger: var(--color-danger-9);
+  --ui-status-info: var(--color-info-9);
 }

@@ -1,0 +1,257 @@
+/* ========================================
+  🎨 COLOR PRIMITIVES
+  - 모든 색상 팔레트 정의
+  - Light/Dark 모드별로 1-12 스케일
+  - Radix UI Colors 참고
+======================================== */
+
+:root {
+  /* ========================================
+    🎨 RADIX COLORS - Gray Scales
+    - 출처: https://www.radix-ui.com/colors
+    - Light/Dark 모드
+    ======================================== */
+
+  /* Gray - 순수 중립 회색 */
+  --color-gray-1: #fcfcfc;
+  --color-gray-2: #f9f9f9;
+  --color-gray-3: #f0f0f0;
+  --color-gray-4: #e8e8e8;
+  --color-gray-5: #e0e0e0;
+  --color-gray-6: #d9d9d9;
+  --color-gray-7: #cecece;
+  --color-gray-8: #bbbbbb;
+  --color-gray-9: #8d8d8d;
+  --color-gray-10: #838383;
+  --color-gray-11: #646464;
+  --color-gray-12: #202020;
+
+  --color-gray-dark-1: #111111;
+  --color-gray-dark-2: #191919;
+  --color-gray-dark-3: #222222;
+  --color-gray-dark-4: #2a2a2a;
+  --color-gray-dark-5: #313131;
+  --color-gray-dark-6: #3a3a3a;
+  --color-gray-dark-7: #484848;
+  --color-gray-dark-8: #606060;
+  --color-gray-dark-9: #6e6e6e;
+  --color-gray-dark-10: #7b7b7b;
+  --color-gray-dark-11: #b4b4b4;
+  --color-gray-dark-12: #eeeeee;
+
+  /* Mauve - 보라빛 회색 (따뜻하고 부드러운) */
+  --color-mauve-1: #fdfcfd;
+  --color-mauve-2: #faf9fb;
+  --color-mauve-3: #f2eff3;
+  --color-mauve-4: #eae7ec;
+  --color-mauve-5: #e3dfe6;
+  --color-mauve-6: #dbd8e0;
+  --color-mauve-7: #d0cdd7;
+  --color-mauve-8: #bcbac7;
+  --color-mauve-9: #8e8c99;
+  --color-mauve-10: #84828e;
+  --color-mauve-11: #65636d;
+  --color-mauve-12: #211f26;
+
+  --color-mauve-dark-1: #121113;
+  --color-mauve-dark-2: #1a191b;
+  --color-mauve-dark-3: #232225;
+  --color-mauve-dark-4: #2b292d;
+  --color-mauve-dark-5: #323035;
+  --color-mauve-dark-6: #3c393f;
+  --color-mauve-dark-7: #49474e;
+  --color-mauve-dark-8: #625f69;
+  --color-mauve-dark-9: #6f6d78;
+  --color-mauve-dark-10: #7c7a85;
+  --color-mauve-dark-11: #b5b2bc;
+  --color-mauve-dark-12: #eeeef0;
+
+  /* Slate - Bluish 회색 (차갑고 전문적인) */
+  --color-slate-1: #fcfcfd;
+  --color-slate-2: #f9f9fb;
+  --color-slate-3: #f0f0f3;
+  --color-slate-4: #e8e8ec;
+  --color-slate-5: #e0e1e6;
+  --color-slate-6: #d9d9e0;
+  --color-slate-7: #cdced6;
+  --color-slate-8: #b9bbc6;
+  --color-slate-9: #8b8d98;
+  --color-slate-10: #80838d;
+  --color-slate-11: #60646c;
+  --color-slate-12: #1c2024;
+
+  --color-slate-dark-1: #111113;
+  --color-slate-dark-2: #18191b;
+  --color-slate-dark-3: #212225;
+  --color-slate-dark-4: #272a2d;
+  --color-slate-dark-5: #2e3135;
+  --color-slate-dark-6: #363a3f;
+  --color-slate-dark-7: #43484e;
+  --color-slate-dark-8: #5a6169;
+  --color-slate-dark-9: #696e77;
+  --color-slate-dark-10: #777b84;
+  --color-slate-dark-11: #b0b4ba;
+  --color-slate-dark-12: #edeef0;
+
+  /* Sage - Greenish 회색 (자연스럽고 차분한) */
+
+  --color-sage-1: #fbfdfc;
+  --color-sage-2: #f7f9f8;
+  --color-sage-3: #eef1f0;
+  --color-sage-4: #e6e9e8;
+  --color-sage-5: #dfe2e0;
+  --color-sage-6: #d7dad9;
+  --color-sage-7: #cbcfcd;
+  --color-sage-8: #b8bcba;
+  --color-sage-9: #868e8b;
+  --color-sage-10: #7c8481;
+  --color-sage-11: #5f6563;
+  --color-sage-12: #1a211e;
+
+  --color-sage-dark-1: #101211;
+  --color-sage-dark-2: #171918;
+  --color-sage-dark-3: #202221;
+  --color-sage-dark-4: #272a29;
+  --color-sage-dark-5: #2e3130;
+  --color-sage-dark-6: #373b39;
+  --color-sage-dark-7: #444947;
+  --color-sage-dark-8: #5b625f;
+  --color-sage-dark-9: #63706b;
+  --color-sage-dark-10: #717d79;
+  --color-sage-dark-11: #adb5b2;
+  --color-sage-dark-12: #eceeed;
+
+  /* Olive - Yellowish 회색 (따뜻하고 자연스러운) */
+
+  --color-olive-1: #fcfdfc;
+  --color-olive-2: #f8faf8;
+  --color-olive-3: #eff1ef;
+  --color-olive-4: #e7e9e7;
+  --color-olive-5: #dfe2df;
+  --color-olive-6: #d7dad7;
+  --color-olive-7: #cccfcc;
+  --color-olive-8: #b9bcb8;
+  --color-olive-9: #898e87;
+  --color-olive-10: #7f847d;
+  --color-olive-11: #60655f;
+  --color-olive-12: #1d211c;
+
+  --color-olive-dark-1: #111210;
+  --color-olive-dark-2: #181917;
+  --color-olive-dark-3: #212220;
+  --color-olive-dark-4: #282a27;
+  --color-olive-dark-5: #2f312e;
+  --color-olive-dark-6: #383a36;
+  --color-olive-dark-7: #454843;
+  --color-olive-dark-8: #5c625b;
+  --color-olive-dark-9: #687066;
+  --color-olive-dark-10: #767d74;
+  --color-olive-dark-11: #afb5ad;
+  --color-olive-dark-12: #eceeec;
+
+  /* Sand - 베이지 회색 (부드럽고 따뜻한) */
+
+  --color-sand-1: #fdfdfc;
+  --color-sand-2: #f9f9f8;
+  --color-sand-3: #f1f0ef;
+  --color-sand-4: #e9e8e6;
+  --color-sand-5: #e2e1de;
+  --color-sand-6: #dad9d6;
+  --color-sand-7: #cfceca;
+  --color-sand-8: #bcbbb5;
+  --color-sand-9: #8d8d86;
+  --color-sand-10: #82827c;
+  --color-sand-11: #63635e;
+  --color-sand-12: #21201c;
+
+  --color-sand-dark-1: #111110;
+  --color-sand-dark-2: #191918;
+  --color-sand-dark-3: #222221;
+  --color-sand-dark-4: #2a2a28;
+  --color-sand-dark-5: #31312e;
+  --color-sand-dark-6: #3b3a37;
+  --color-sand-dark-7: #494844;
+  --color-sand-dark-8: #62605b;
+  --color-sand-dark-9: #6f6d66;
+  --color-sand-dark-10: #7c7b74;
+  --color-sand-dark-11: #b5b3ad;
+  --color-sand-dark-12: #eeeeec;
+
+  --color-gold-1: #fdfdfc;
+  --color-gold-2: #faf9f2;
+  --color-gold-3: #f2f0e7;
+  --color-gold-4: #eae6db;
+  --color-gold-5: #e1dccf;
+  --color-gold-6: #d8d0bf;
+  --color-gold-7: #cbc0aa;
+  --color-gold-8: #b9a88d;
+  --color-gold-9: #978365;
+  --color-gold-10: #8c7a5e;
+  --color-gold-11: #71624b;
+  --color-gold-12: #3b352b;
+
+  --color-gold-dark-1: #121211;
+  --color-gold-dark-2: #1b1a17;
+  --color-gold-dark-3: #24231f;
+  --color-gold-dark-4: #2d2b26;
+  --color-gold-dark-5: #38352e;
+  --color-gold-dark-6: #444039;
+  --color-gold-dark-7: #544f46;
+  --color-gold-dark-8: #696256;
+  --color-gold-dark-9: #978365;
+  --color-gold-dark-10: #a39073;
+  --color-gold-dark-11: #cbb99f;
+  --color-gold-dark-12: #e8e2d9;
+
+  --color-bronze-1: #fdfcfc;
+  --color-bronze-2: #fdf7f5;
+  --color-bronze-3: #f6edea;
+  --color-bronze-4: #efe4df;
+  --color-bronze-5: #e7d9d3;
+  --color-bronze-6: #dfcdc5;
+  --color-bronze-7: #d3bcb3;
+  --color-bronze-8: #c2a499;
+  --color-bronze-9: #a18072;
+  --color-bronze-10: #957468;
+  --color-bronze-11: #7d5e54;
+  --color-bronze-12: #43302b;
+
+  --color-bronze-dark-1: #141110;
+  --color-bronze-dark-2: #1c1917;
+  --color-bronze-dark-3: #262220;
+  --color-bronze-dark-4: #302a27;
+  --color-bronze-dark-5: #3b3330;
+  --color-bronze-dark-6: #493e3a;
+  --color-bronze-dark-7: #5a4c47;
+  --color-bronze-dark-8: #6f5f58;
+  --color-bronze-dark-9: #a18072;
+  --color-bronze-dark-10: #ae8c7e;
+  --color-bronze-dark-11: #d4b3a5;
+  --color-bronze-dark-12: #ede0d9;
+
+  --color-brown-1: #fefdfc;
+  --color-brown-2: #fcf9f6;
+  --color-brown-3: #f6eee7;
+  --color-brown-4: #f0e4d9;
+  --color-brown-5: #ebdaca;
+  --color-brown-6: #e4cdb7;
+  --color-brown-7: #dcbc9f;
+  --color-brown-8: #cea37e;
+  --color-brown-9: #ad7f58;
+  --color-brown-10: #a07553;
+  --color-brown-11: #815e46;
+  --color-brown-12: #3e332e;
+
+  --color-brown-dark-1: #12110f;
+  --color-brown-dark-2: #1c1816;
+  --color-brown-dark-3: #28211d;
+  --color-brown-dark-4: #322922;
+  --color-brown-dark-5: #3e3128;
+  --color-brown-dark-6: #4d3c2f;
+  --color-brown-dark-7: #614a39;
+  --color-brown-dark-8: #7c5f46;
+  --color-brown-dark-9: #ad7f58;
+  --color-brown-dark-10: #b88c67;
+  --color-brown-dark-11: #dbb594;
+  --color-brown-dark-12: #f2e1ca;
+}

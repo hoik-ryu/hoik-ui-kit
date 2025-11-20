@@ -1,43 +1,39 @@
-/* tokens-theme-color.css */
+/* ========================================
+   🌓 Theme Color Mode Switching
+   - 모든 색상에 대해 Light/Dark 모드 전환
+   - data-mode 속성으로 제어
+   ======================================== */
 
-/* 기본값(예: light + teal-ish) */
 :root {
-  --ui-mode: light;
-  --ui-color-scheme: teal;
+  /* Accent 팔레트: 1~12 단계 */
+  --accent-1: transparent;
+  --accent-2: transparent;
+  --accent-3: transparent;
+  --accent-4: transparent;
+  --accent-5: transparent;
+  --accent-6: transparent;
+  --accent-7: transparent;
+  --accent-8: transparent;
+  --accent-9: transparent;
+  --accent-10: transparent;
+  --accent-11: transparent;
+  --accent-12: transparent;
 
-  --ui-bg-page: var(--color-neutral-50);
-  --ui-bg-surface: #ffffff;
-  --ui-fg-strong: var(--color-neutral-900);
+  /* Gray 팔레트 */
+  --gray-1: transparent;
+  --gray-2: transparent;
+  --gray-3: transparent;
+  --gray-4: transparent;
+  --gray-5: transparent;
+  --gray-6: transparent;
+  --gray-7: transparent;
+  --gray-8: transparent;
+  --gray-9: transparent;
+  --gray-10: transparent;
+  --gray-11: transparent;
+  --gray-12: transparent;
 
-  --ui-accent: var(--color-primary-500);
-  --ui-accent-strong: var(--color-primary-600);
-  --ui-accent-soft: var(--color-primary-100);
-}
-
-/* dark + teal */
-:root[data-mode="dark"][data-color="teal"] {
-  --ui-bg-page: var(--color-neutral-950);
-  --ui-bg-surface: var(--color-neutral-900);
-  --ui-fg-strong: var(--color-neutral-50);
-
-  --ui-accent: var(--color-primary-400);
-  --ui-accent-strong: var(--color-primary-300);
-  --ui-accent-soft: var(--color-primary-700);
-}
-
-/* light + green */
-:root[data-mode="light"][data-color="green"] {
-  --ui-accent: var(--color-success-500);
-  --ui-accent-strong: var(--color-success-600);
-  --ui-accent-soft: var(--color-success-100);
-
-  /* 필요하면 bg도 살짝 틴트 */
-  --ui-bg-page: #f5fdf7;
-}
-
-/* light + yellow */
-:root[data-mode="light"][data-color="yellow"] {
-  --ui-accent: var(--color-warning-500);
-  --ui-accent-strong: var(--color-warning-600);
-  --ui-accent-soft: var(--color-warning-100);
+  /* Background는 단계 몇 개만 있으면 됨 */
+  --bg-page: #fff;
+  --bg-surface: #fff;
 }
